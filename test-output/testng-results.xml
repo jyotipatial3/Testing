@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="7" total="28" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel Automation Run" duration-ms="228369" started-at="2018-07-06T21:21:59Z" finished-at="2018-07-06T21:25:47Z">
+    <groups>
+    </groups>
+    <test name="parallelTesting" duration-ms="228369" started-at="2018-07-06T21:21:59Z" finished-at="2018-07-06T21:25:47Z">
+      <class name="Test.TestAddingComputer">
+        <test-method status="PASS" signature="testAddNewComputerWithBlankCompany(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="testAddNewComputerWithBlankCompany" duration-ms="7548" started-at="2018-07-07T02:51:59Z" description="TC_ID -&gt; TC_2.13 -&gt; Verify is user is able to add new computer without entering company" data-provider="GetTestConfig" finished-at="2018-07-07T02:52:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@772be210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewComputerWithBlankCompany -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="tearDown" is-config="true" duration-ms="13" started-at="2018-07-07T02:52:07Z" finished-at="2018-07-07T02:52:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddNewComputerWithBlankCompany status=SUCCESS method=TestAddingComputer.testAddNewComputerWithBlankCompany(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testAddNewComputerWithBlankDiscontinuedDate(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="testAddNewComputerWithBlankDiscontinuedDate" duration-ms="7282" started-at="2018-07-07T02:52:07Z" description="TC_ID -&gt; TC_2.11 -&gt; Verify user is able to add a computer when blank &#039;Discontinued date&#039; is entered" data-provider="GetTestConfig" finished-at="2018-07-07T02:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@41996049]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewComputerWithBlankDiscontinuedDate -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="tearDown" is-config="true" duration-ms="15" started-at="2018-07-07T02:52:14Z" finished-at="2018-07-07T02:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddNewComputerWithBlankDiscontinuedDate status=SUCCESS method=TestAddingComputer.testAddNewComputerWithBlankDiscontinuedDate(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testAddNewComputerWithBlankIntroducedDate(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="testAddNewComputerWithBlankIntroducedDate" duration-ms="7803" started-at="2018-07-07T02:52:14Z" description="TC_ID -&gt; TC_2.8 -&gt; Verify user is able to add a computer when blank &#039;Introduced date&#039; is entered" data-provider="GetTestConfig" finished-at="2018-07-07T02:52:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@78122be4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewComputerWithBlankIntroducedDate -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="tearDown" is-config="true" duration-ms="17" started-at="2018-07-07T02:52:22Z" finished-at="2018-07-07T02:52:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddNewComputerWithBlankIntroducedDate status=SUCCESS method=TestAddingComputer.testAddNewComputerWithBlankIntroducedDate(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testAddNewComputerWithSpaces(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="testAddNewComputerWithSpaces" duration-ms="7780" started-at="2018-07-07T02:52:22Z" description="TC_ID -&gt; TC_2.2 -&gt; Add a new computer to the computer database when &#039;Computer name&#039; field contains input data with leading and trailing spaces" data-provider="GetTestConfig" finished-at="2018-07-07T02:52:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@737357d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewComputerWithSpaces -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="tearDown" is-config="true" duration-ms="21" started-at="2018-07-07T02:52:30Z" finished-at="2018-07-07T02:52:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddNewComputerWithSpaces status=SUCCESS method=TestAddingComputer.testAddNewComputerWithSpaces(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testAddNewComputerWithValidInput(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="testAddNewComputerWithValidInput" duration-ms="8420" started-at="2018-07-07T02:52:30Z" description="TC_ID -&gt; TC_1 and TC_2.1 -&gt; Display computer database home page and Add a new computer to the computer database" data-provider="GetTestConfig" finished-at="2018-07-07T02:52:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@3e18e641]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewComputerWithValidInput -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="tearDown" is-config="true" duration-ms="18" started-at="2018-07-07T02:52:38Z" finished-at="2018-07-07T02:52:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddNewComputerWithValidInput status=SUCCESS method=TestAddingComputer.testAddNewComputerWithValidInput(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testCancelAddingNewComputer(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="testCancelAddingNewComputer" duration-ms="7640" started-at="2018-07-07T02:52:38Z" description="TC_ID -&gt; TC_3.1 and TC_3.2 -&gt; Cancel adding a new computer to the computer database after/while entering valid data in the fields" data-provider="GetTestConfig" finished-at="2018-07-07T02:52:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@81fb41]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCancelAddingNewComputer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="tearDown" is-config="true" duration-ms="19" started-at="2018-07-07T02:52:46Z" finished-at="2018-07-07T02:52:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCancelAddingNewComputer status=SUCCESS method=TestAddingComputer.testCancelAddingNewComputer(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testErrorMessage_AddNewComputerWithAllInvalidData(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="testErrorMessage_AddNewComputerWithAllInvalidData" duration-ms="7710" started-at="2018-07-07T02:52:46Z" description="TC_ID -&gt; TC_2.14 and TC_2.15 -&gt; Display error message when blank data/only spaces is entered while adding a new computer" data-provider="GetTestConfig" finished-at="2018-07-07T02:52:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@179ed7da]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorMessage_AddNewComputerWithAllInvalidData -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="tearDown" is-config="true" duration-ms="8" started-at="2018-07-07T02:52:53Z" finished-at="2018-07-07T02:52:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testErrorMessage_AddNewComputerWithAllInvalidData status=SUCCESS method=TestAddingComputer.testErrorMessage_AddNewComputerWithAllInvalidData(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testErrorMessage_AddNewComputerWithBlankComputerName(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="testErrorMessage_AddNewComputerWithBlankComputerName" duration-ms="8083" started-at="2018-07-07T02:52:53Z" description="TC_ID -&gt; TC_2.6 -&gt; Display error message when blank data is entered in &#039;Computer name&#039; while adding a new computer" data-provider="GetTestConfig" finished-at="2018-07-07T02:53:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@75d934a7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorMessage_AddNewComputerWithBlankComputerName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="tearDown" is-config="true" duration-ms="9" started-at="2018-07-07T02:53:01Z" finished-at="2018-07-07T02:53:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testErrorMessage_AddNewComputerWithBlankComputerName status=SUCCESS method=TestAddingComputer.testErrorMessage_AddNewComputerWithBlankComputerName(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="testErrorMessage_AddNewComputerWithExistingComputerName(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="testErrorMessage_AddNewComputerWithExistingComputerName" duration-ms="7197" started-at="2018-07-07T02:53:01Z" description="TC_ID -&gt; TC_2.5 -&gt; Display error message when existing data is entered in &#039;Computer name&#039; while adding a new computer" data-provider="GetTestConfig" finished-at="2018-07-07T02:53:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@24c3f0ab]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Error Message] but found [Done! Computer ACE has been created]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Error Message] but found [Done! Computer ACE has been created]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at PageObject.ComputerDatabase.compareUIMessage(ComputerDatabase.java:70)
+	at Test.TestAddingComputer.testErrorMessage_AddNewComputerWithExistingComputerName(TestAddingComputer.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorMessage_AddNewComputerWithExistingComputerName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="tearDown" is-config="true" duration-ms="10" started-at="2018-07-07T02:53:09Z" finished-at="2018-07-07T02:53:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testErrorMessage_AddNewComputerWithExistingComputerName status=FAILURE method=TestAddingComputer.testErrorMessage_AddNewComputerWithExistingComputerName(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="testErrorMessage_AddNewComputerWithInvalidDataInComputerName(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="testErrorMessage_AddNewComputerWithInvalidDataInComputerName" duration-ms="7657" started-at="2018-07-07T02:53:09Z" description="TC_ID -&gt; TC_2.4 -&gt; Display error message when invalid data is entered in &#039;Computer name&#039; while adding a new computer" data-provider="GetTestConfig" finished-at="2018-07-07T02:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@1bb47eb2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Error Message] but found [Done! Computer ?~])(]|}[~ has been created]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Error Message] but found [Done! Computer ?~])(]|}[~ has been created]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at PageObject.ComputerDatabase.compareUIMessage(ComputerDatabase.java:70)
+	at Test.TestAddingComputer.testErrorMessage_AddNewComputerWithInvalidDataInComputerName(TestAddingComputer.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorMessage_AddNewComputerWithInvalidDataInComputerName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="tearDown" is-config="true" duration-ms="12" started-at="2018-07-07T02:53:16Z" finished-at="2018-07-07T02:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testErrorMessage_AddNewComputerWithInvalidDataInComputerName status=FAILURE method=TestAddingComputer.testErrorMessage_AddNewComputerWithInvalidDataInComputerName(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testErrorMessage_AddNewComputerWithInvalidDiscontinuedDate(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="testErrorMessage_AddNewComputerWithInvalidDiscontinuedDate" duration-ms="8931" started-at="2018-07-07T02:53:16Z" description="TC_ID -&gt; TC_2.10 and TC_2.12 -&gt; Display error message when invalid data/data with leading and trailing spaces is entered in &#039;Discontinued date&#039; while adding a new computer" data-provider="GetTestConfig" finished-at="2018-07-07T02:53:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@455db3a6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorMessage_AddNewComputerWithInvalidDiscontinuedDate -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="tearDown" is-config="true" duration-ms="11" started-at="2018-07-07T02:53:25Z" finished-at="2018-07-07T02:53:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testErrorMessage_AddNewComputerWithInvalidDiscontinuedDate status=SUCCESS method=TestAddingComputer.testErrorMessage_AddNewComputerWithInvalidDiscontinuedDate(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testErrorMessage_AddNewComputerWithInvalidIntroducedDate(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="testErrorMessage_AddNewComputerWithInvalidIntroducedDate" duration-ms="9037" started-at="2018-07-07T02:53:25Z" description="TC_ID -&gt; TC_2.7 and TC_2.9 -&gt; Display error message when invalid data/data with leading and trailing spaces is entered in &#039;Introduced date&#039; while adding a new computer" data-provider="GetTestConfig" finished-at="2018-07-07T02:53:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@71a13c5d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorMessage_AddNewComputerWithInvalidIntroducedDate -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="tearDown" is-config="true" duration-ms="10" started-at="2018-07-07T02:53:34Z" finished-at="2018-07-07T02:53:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testErrorMessage_AddNewComputerWithInvalidIntroducedDate status=SUCCESS method=TestAddingComputer.testErrorMessage_AddNewComputerWithInvalidIntroducedDate(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testUserRedirectionOnHomePage(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="testUserRedirectionOnHomePage" duration-ms="6996" started-at="2018-07-07T02:53:34Z" description="TC_ID -&gt; TC_4 -&gt; User should be redirected to home page after clicking on &#039;Play sample application - Computer Database&#039; link" data-provider="GetTestConfig" finished-at="2018-07-07T02:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@7a1cb293]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRedirectionOnHomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestAddingComputer@2752f6e2]" name="tearDown" is-config="true" duration-ms="17" started-at="2018-07-07T02:53:41Z" finished-at="2018-07-07T02:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUserRedirectionOnHomePage status=SUCCESS method=TestAddingComputer.testUserRedirectionOnHomePage(Helpers.Config)[pri:0, instance:Test.TestAddingComputer@2752f6e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.TestAddingComputer -->
+      <class name="Test.TestHomePage">
+        <test-method status="PASS" signature="testNextAndPreviousDataOnHomePage(Helpers.Config)[pri:0, instance:Test.TestHomePage@7dc36524]" name="testNextAndPreviousDataOnHomePage" duration-ms="7157" started-at="2018-07-07T02:55:08Z" description="TC_ID -&gt; TC_11, TC_12 and TC_13-&gt; Verify pagination is working on &#039;Home&#039; page and user is able to navigate to Next/Previous page" data-provider="GetTestConfig" finished-at="2018-07-07T02:55:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@647aab8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNextAndPreviousDataOnHomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestHomePage@7dc36524]" name="tearDown" is-config="true" duration-ms="7" started-at="2018-07-07T02:55:15Z" finished-at="2018-07-07T02:55:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNextAndPreviousDataOnHomePage status=SUCCESS method=TestHomePage.testNextAndPreviousDataOnHomePage(Helpers.Config)[pri:0, instance:Test.TestHomePage@7dc36524] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testNoDataFoundInSearchOnHomePage(Helpers.Config)[pri:0, instance:Test.TestHomePage@7dc36524]" name="testNoDataFoundInSearchOnHomePage" duration-ms="5967" started-at="2018-07-07T02:55:15Z" description="TC_ID -&gt; TC_5.3 and TC_5.4 -&gt; Verify no data found message when invalid/non-existing data is entered in filter field on home page" data-provider="GetTestConfig" finished-at="2018-07-07T02:55:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@ff54594]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoDataFoundInSearchOnHomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestHomePage@7dc36524]" name="tearDown" is-config="true" duration-ms="17" started-at="2018-07-07T02:55:21Z" finished-at="2018-07-07T02:55:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNoDataFoundInSearchOnHomePage status=SUCCESS method=TestHomePage.testNoDataFoundInSearchOnHomePage(Helpers.Config)[pri:0, instance:Test.TestHomePage@7dc36524] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testNoDuplicateDataInResultGridOnHomePage(Helpers.Config)[pri:0, instance:Test.TestHomePage@7dc36524]" name="testNoDuplicateDataInResultGridOnHomePage" duration-ms="11555" started-at="2018-07-07T02:55:21Z" description="TC_ID -&gt; TC_5.8 -&gt; Verify duplicate records are not displayed in the result grid" data-provider="GetTestConfig" finished-at="2018-07-07T02:55:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@12b74bdd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoDuplicateDataInResultGridOnHomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestHomePage@7dc36524]" name="tearDown" is-config="true" duration-ms="8" started-at="2018-07-07T02:55:33Z" finished-at="2018-07-07T02:55:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNoDuplicateDataInResultGridOnHomePage status=SUCCESS method=TestHomePage.testNoDuplicateDataInResultGridOnHomePage(Helpers.Config)[pri:0, instance:Test.TestHomePage@7dc36524] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testSearchNewComputerOnHomePage(Helpers.Config)[pri:0, instance:Test.TestHomePage@7dc36524]" name="testSearchNewComputerOnHomePage" duration-ms="8729" started-at="2018-07-07T02:55:33Z" description="TC_ID -&gt; TC_5.1 and TC_5.2 -&gt; Verify user is able to filter added computer on home page" data-provider="GetTestConfig" finished-at="2018-07-07T02:55:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@38d0dfa2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchNewComputerOnHomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestHomePage@7dc36524]" name="tearDown" is-config="true" duration-ms="6" started-at="2018-07-07T02:55:42Z" finished-at="2018-07-07T02:55:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchNewComputerOnHomePage status=SUCCESS method=TestHomePage.testSearchNewComputerOnHomePage(Helpers.Config)[pri:0, instance:Test.TestHomePage@7dc36524] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testSortedDataInResultGridOnHomePage(Helpers.Config)[pri:0, instance:Test.TestHomePage@7dc36524]" name="testSortedDataInResultGridOnHomePage" duration-ms="5643" started-at="2018-07-07T02:55:42Z" description="TC_ID -&gt; TC_5.7 -&gt; Verify sorted column is displayed with a sorting icon on home page" data-provider="GetTestConfig" finished-at="2018-07-07T02:55:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@3cb3288]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortedDataInResultGridOnHomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestHomePage@7dc36524]" name="tearDown" is-config="true" duration-ms="7" started-at="2018-07-07T02:55:47Z" finished-at="2018-07-07T02:55:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortedDataInResultGridOnHomePage status=SUCCESS method=TestHomePage.testSortedDataInResultGridOnHomePage(Helpers.Config)[pri:0, instance:Test.TestHomePage@7dc36524] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.TestHomePage -->
+      <class name="Test.TestEditComputer">
+        <test-method status="PASS" signature="testCancelEditingComputer(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="testCancelEditingComputer" duration-ms="9763" started-at="2018-07-07T02:53:41Z" description="TC_ID -&gt; TC_8 -&gt; Cancel editing a new computer after/while entering valid data in the fields" data-provider="GetTestConfig" finished-at="2018-07-07T02:53:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@b8c5a08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCancelEditingComputer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="tearDown" is-config="true" duration-ms="12" started-at="2018-07-07T02:53:51Z" finished-at="2018-07-07T02:53:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCancelEditingComputer status=SUCCESS method=TestEditComputer.testCancelEditingComputer(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testDeleteComputer(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="testDeleteComputer" duration-ms="9127" started-at="2018-07-07T02:53:51Z" description="TC_ID -&gt; TC_9 And TC_15 -&gt; Delete an existing computer in the edit computer page and verify confirmation message of deletion" data-provider="GetTestConfig" finished-at="2018-07-07T02:54:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@522c1cbc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteComputer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="tearDown" is-config="true" duration-ms="10" started-at="2018-07-07T02:54:00Z" finished-at="2018-07-07T02:54:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteComputer status=SUCCESS method=TestEditComputer.testDeleteComputer(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testEditComputerWithBlankIntroducedAndDiscontinuedDateAndCompany(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="testEditComputerWithBlankIntroducedAndDiscontinuedDateAndCompany" duration-ms="9836" started-at="2018-07-07T02:54:00Z" description="TC_ID -&gt; TC_7.8, TC_7.11 And TC_7.13 -&gt; Verify user is able to add a computer when blank &#039;Introduced date&#039;, &#039;Discontinued Date&#039; and &#039;Company&#039; is entered" data-provider="GetTestConfig" finished-at="2018-07-07T02:54:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@525540f6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditComputerWithBlankIntroducedAndDiscontinuedDateAndCompany -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="tearDown" is-config="true" duration-ms="13" started-at="2018-07-07T02:54:10Z" finished-at="2018-07-07T02:54:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditComputerWithBlankIntroducedAndDiscontinuedDateAndCompany status=SUCCESS method=TestEditComputer.testEditComputerWithBlankIntroducedAndDiscontinuedDateAndCompany(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testEditComputerWithSpacesInComputerName(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="testEditComputerWithSpacesInComputerName" duration-ms="9351" started-at="2018-07-07T02:54:10Z" description="TC_ID -&gt; TC_7.2 And TC_14-&gt; Verify edit computer is working when &#039;Computer name&#039; field contains input data with leading and trailing spaces and confirmation message of successful update is shown" data-provider="GetTestConfig" finished-at="2018-07-07T02:54:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@78ac1d1b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditComputerWithSpacesInComputerName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="tearDown" is-config="true" duration-ms="19" started-at="2018-07-07T02:54:19Z" finished-at="2018-07-07T02:54:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditComputerWithSpacesInComputerName status=SUCCESS method=TestEditComputer.testEditComputerWithSpacesInComputerName(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="testErrorMessage_AddNewComputerWithExistingComputerName(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="testErrorMessage_AddNewComputerWithExistingComputerName" duration-ms="10269" started-at="2018-07-07T02:54:19Z" description="TC_ID -&gt; TC_7.4 -&gt; Display error message when existing data is entered in &#039;Computer name&#039; while adding a new computer" data-provider="GetTestConfig" finished-at="2018-07-07T02:54:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@308c27f2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Error Message] but found [Done! Computer ACE has been updated]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Error Message] but found [Done! Computer ACE has been updated]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at PageObject.ComputerDatabase.compareUIMessage(ComputerDatabase.java:70)
+	at Test.TestEditComputer.testErrorMessage_AddNewComputerWithExistingComputerName(TestEditComputer.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorMessage_AddNewComputerWithExistingComputerName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="tearDown" is-config="true" duration-ms="13" started-at="2018-07-07T02:54:30Z" finished-at="2018-07-07T02:54:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testErrorMessage_AddNewComputerWithExistingComputerName status=FAILURE method=TestEditComputer.testErrorMessage_AddNewComputerWithExistingComputerName(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testErrorMessage_EditComputerWithAllInvalidData(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="testErrorMessage_EditComputerWithAllInvalidData" duration-ms="9867" started-at="2018-07-07T02:54:30Z" description="TC_ID -&gt; TC_7.14 and TC_7.15 -&gt; Display error message when blank data/only spaces is updated in all the fields while editing the existing computer" data-provider="GetTestConfig" finished-at="2018-07-07T02:54:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@680b0096]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorMessage_EditComputerWithAllInvalidData -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="tearDown" is-config="true" duration-ms="18" started-at="2018-07-07T02:54:40Z" finished-at="2018-07-07T02:54:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testErrorMessage_EditComputerWithAllInvalidData status=SUCCESS method=TestEditComputer.testErrorMessage_EditComputerWithAllInvalidData(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="testErrorMessage_EditComputerWithBlankComputerName(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="testErrorMessage_EditComputerWithBlankComputerName" duration-ms="7048" started-at="2018-07-07T02:54:40Z" description="TC_ID -&gt; TC_7.5 -&gt; Display error message when blank data is updated in &#039;Computer name&#039; field in the edit computer page" data-provider="GetTestConfig" finished-at="2018-07-07T02:54:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@1f2ceb5a]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"css selector","selector":"div.alert-message.warning"}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'JyotiPatialMac.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e8d95b58-5f05-2541-b137-b6223fd4438c
+*** Element info: {Using=css selector, value=div.alert-message.warning}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.alert-message.warning"}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'JyotiPatialMac.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e8d95b58-5f05-2541-b137-b6223fd4438c
+*** Element info: {Using=css selector, value=div.alert-message.warning}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.getText(Unknown Source)
+	at PageObject.ComputerDatabase.compareUIMessage(ComputerDatabase.java:70)
+	at Test.TestEditComputer.testErrorMessage_EditComputerWithBlankComputerName(TestEditComputer.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.alert-message.warning"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'JyotiPatialMac.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous1687964284668189805webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous1687964284668189805webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous1687964284668189805webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous1687964284668189805webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous1687964284668189805webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorMessage_EditComputerWithBlankComputerName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="tearDown" is-config="true" duration-ms="9" started-at="2018-07-07T02:54:47Z" finished-at="2018-07-07T02:54:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testErrorMessage_EditComputerWithBlankComputerName status=FAILURE method=TestEditComputer.testErrorMessage_EditComputerWithBlankComputerName(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="testErrorMessage_EditComputerWithInvalidIntroducedDate(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="testErrorMessage_EditComputerWithInvalidIntroducedDate" duration-ms="7270" started-at="2018-07-07T02:54:47Z" description="TC_ID -&gt; TC_7.7 And TC_7.10 -&gt; Display error message when invalid data is updated in &#039;Introduced date&#039; and &#039;Discontinued Date&#039; field in the edit computer page" data-provider="GetTestConfig" finished-at="2018-07-07T02:54:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@3ea51bb]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"css selector","selector":"div.alert-message.warning"}
+Command duration or timeout: 12 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'JyotiPatialMac.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2aaf6dbf-1eec-784f-9b27-588e30547be7
+*** Element info: {Using=css selector, value=div.alert-message.warning}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.alert-message.warning"}
+Command duration or timeout: 12 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'JyotiPatialMac.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2aaf6dbf-1eec-784f-9b27-588e30547be7
+*** Element info: {Using=css selector, value=div.alert-message.warning}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.getText(Unknown Source)
+	at PageObject.ComputerDatabase.compareUIMessage(ComputerDatabase.java:70)
+	at Test.TestEditComputer.testErrorMessage_EditComputerWithInvalidIntroducedDate(TestEditComputer.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.alert-message.warning"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'JyotiPatialMac.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous6733777449975012499webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous6733777449975012499webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous6733777449975012499webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous6733777449975012499webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous6733777449975012499webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorMessage_EditComputerWithInvalidIntroducedDate -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="tearDown" is-config="true" duration-ms="12" started-at="2018-07-07T02:54:54Z" finished-at="2018-07-07T02:54:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testErrorMessage_EditComputerWithInvalidIntroducedDate status=FAILURE method=TestEditComputer.testErrorMessage_EditComputerWithInvalidIntroducedDate(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="testErrorMessage_EditComputerWithSpecialCharatctersInComputerName(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="testErrorMessage_EditComputerWithSpecialCharatctersInComputerName" duration-ms="6704" started-at="2018-07-07T02:54:54Z" description="TC_ID -&gt; TC_7.3 -&gt; Display error message when special character is updated in &#039;Computer name&#039; field in the edit computer page" data-provider="GetTestConfig" finished-at="2018-07-07T02:55:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@af21aef]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"css selector","selector":"div.alert-message.warning"}
+Command duration or timeout: 17 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'JyotiPatialMac.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e98f344e-bda2-d543-a0ef-64ba7245f644
+*** Element info: {Using=css selector, value=div.alert-message.warning}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.alert-message.warning"}
+Command duration or timeout: 17 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'JyotiPatialMac.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e98f344e-bda2-d543-a0ef-64ba7245f644
+*** Element info: {Using=css selector, value=div.alert-message.warning}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.getText(Unknown Source)
+	at PageObject.ComputerDatabase.compareUIMessage(ComputerDatabase.java:70)
+	at Test.TestEditComputer.testErrorMessage_EditComputerWithSpecialCharatctersInComputerName(TestEditComputer.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.alert-message.warning"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'JyotiPatialMac.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous9161673608371470660webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous9161673608371470660webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous9161673608371470660webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous9161673608371470660webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous9161673608371470660webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorMessage_EditComputerWithSpecialCharatctersInComputerName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="tearDown" is-config="true" duration-ms="8" started-at="2018-07-07T02:55:01Z" finished-at="2018-07-07T02:55:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testErrorMessage_EditComputerWithSpecialCharatctersInComputerName status=FAILURE method=TestEditComputer.testErrorMessage_EditComputerWithSpecialCharatctersInComputerName(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="testViewAddedComputerAndEdit(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="testViewAddedComputerAndEdit" duration-ms="7412" started-at="2018-07-07T02:55:01Z" description="TC_ID -&gt; TC_6, TC_7.1, TC_7.6, TC_7.9, TC_7.12 and TC_10-&gt; View added computer details, edit in the edit computer page and view edited computer in the home page" data-provider="GetTestConfig" finished-at="2018-07-07T02:55:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Helpers.Config@6b9c44cf]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"css selector","selector":"div.alert-message.warning"}
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'JyotiPatialMac.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b74b46b2-fe15-c54f-9c26-686f8f20a14e
+*** Element info: {Using=css selector, value=div.alert-message.warning}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.alert-message.warning"}
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'JyotiPatialMac.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b74b46b2-fe15-c54f-9c26-686f8f20a14e
+*** Element info: {Using=css selector, value=div.alert-message.warning}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.getText(Unknown Source)
+	at PageObject.ComputerDatabase.compareUIMessage(ComputerDatabase.java:70)
+	at Test.TestEditComputer.testViewAddedComputerAndEdit(TestEditComputer.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"div.alert-message.warning"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'JyotiPatialMac.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous1036368582184434856webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous1036368582184434856webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous1036368582184434856webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous1036368582184434856webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/cb/7pj6_9d96294hsb0cxxj648sjcyt4s/T/anonymous1036368582184434856webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewAddedComputerAndEdit -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.TestEditComputer@6b71769e]" name="tearDown" is-config="true" duration-ms="9" started-at="2018-07-07T02:55:08Z" finished-at="2018-07-07T02:55:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testViewAddedComputerAndEdit status=FAILURE method=TestEditComputer.testViewAddedComputerAndEdit(Helpers.Config)[pri:0, instance:Test.TestEditComputer@6b71769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.TestEditComputer -->
+    </test> <!-- parallelTesting -->
+  </suite> <!-- Parallel Automation Run -->
+</testng-results>
