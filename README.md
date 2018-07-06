@@ -10,7 +10,7 @@ Used page object model and data-driven framework
 
 
 Prerequisites:
-Eclipse (Used Version: Mars.2 Release (4.5.2))
+Eclipse (Used Version: Mars.1 Release (4.5.1))
 Firefox Driver 
 Add TestNG plugin to the project
 Add Maven plugin to the project
